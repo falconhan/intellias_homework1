@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	var (
-		n int
+		q int
 		a int
 		b int
 	)
@@ -16,8 +16,7 @@ func main() {
 	for fmt.Scan(&b); b != 0; fmt.Scan(&b) {
 		fmt.Println(b)
 	}
-	for fmt.Scan(&n); n != 0; fmt.Scan(&n) {
-		fmt.Println(n)
+	for fmt.Scan(&q); q != 0; fmt.Scan(&q) {
+		fmt.Println(q)
 	}
 }
-
